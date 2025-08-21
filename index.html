@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      London Technology College - UK-Certified Online Courses | Start Your
+      Career Today
+    </title>
+    <meta
+      name="description"
+      content="Join London Technology College for UK-certified online courses. Flexible learning, career-focused programs in IT, Business, Healthcare & more. Start anytime from Guyana or Zambia."
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="container">
+          <div class="nav-brand">
+            <img
+              src="./LTC logo png.png"
+              alt="London Technology College"
+              class="logo"
+            />
+          </div>
+          <div class="nav-menu" id="navMenu">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#courses" class="nav-link">Courses</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#contact" class="nav-link">Contact</a>
+          </div>
+          <div class="nav-toggle" id="navToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section with Form -->
+    <section id="home" class="hero">
+      <div class="hero-background">
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-left fade-in-left">
+            <div class="hero-badge">
+              <i class="fas fa-certificate"></i>
+              <span>UK-Certified Programs</span>
+            </div>
+            <h1 class="hero-title">
+              Your Career. Your Time.
+              <span class="highlight-text">Totally Online.</span>
+            </h1>
+            <p class="hero-subtitle">
+              Empower your future with industry-ready, UK-certified professional
+              courses. Start anytime from anywhere and accelerate your growth in
+              Guyana and Zambia.
+            </p>
+            <div class="hero-stats">
+              <div class="stat-item">
+                <div class="stat-number">70+</div>
+                <div class="stat-label">Courses Available</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">£125</div>
+                <div class="stat-label">Fixed Price</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Online Learning</div>
+              </div>
+            </div>
+            <div class="hero-features">
+              <div class="feature-item">
+                <i class="fas fa-clock"></i>
+                <span>3-48 Hours Compact Learning</span>
+              </div>
+              <div class="feature-item">
+                <i class="fas fa-globe"></i>
+                <span>Study From Anywhere</span>
+              </div>
+              <div class="feature-item">
+                <i class="fas fa-certificate"></i>
+                <span>UK-Certified Completion</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-right fade-in-right">
+            <div class="enrollment-form-container">
+              <div class="form-header">
+                <h2>Start Your Journey Today</h2>
+                <p>Get enrolled in minutes and transform your career</p>
+              </div>
+              <form id="enrollmentForm" class="enrollment-form">
+                <div class="form-group">
+                  <label for="fullName">Full Name *</label>
+                  <input type="text" id="fullName" name="fullName" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email Address *</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="phone">Phone Number *</label>
+                  <div class="phone-input">
+                    <select id="countryCode" name="countryCode" required>
+                      <option value="+592">+592 (Guyana)</option>
+                      <option value="+260">+260 (Zambia)</option>
+                      <option value="+1">+1 (US/Canada)</option>
+                      <option value="+44">+44 (UK)</option>
+                      <option value="+91">+91 (India)</option>
+                    </select>
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      placeholder="Phone Number"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="whatsapp">WhatsApp Number</label>
+                  <input
+                    type="tel"
+                    id="whatsapp"
+                    name="whatsapp"
+                    placeholder="WhatsApp Number (Optional)"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="program">Select Program *</label>
+                  <select id="program" name="program" required>
+                    <option value="">Choose a Program</option>
+                    <option value="it-analytics">IT & Analytics</option>
+                    <option value="banking-finance">
+                      Banking Finance & Insurance
+                    </option>
+                    <option value="management">
+                      Management & Entrepreneurship
+                    </option>
+                    <option value="sports-fitness">
+                      Sports And Fitness Management
+                    </option>
+                    <option value="beauty-wellness">Beauty And Wellness</option>
+                    <option value="creative-arts">
+                      Creative Arts And Design
+                    </option>
+                    <option value="agribusiness">
+                      Agribusiness Management
+                    </option>
+                    <option value="media-entertainment">
+                      Media And Entertainment
+                    </option>
+                    <option value="tourism-hospitality">
+                      Tourism And Hospitality
+                    </option>
+                    <option value="medical">Medical</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="elective">Select Elective</label>
+                  <select id="elective" name="elective">
+                    <option value="">Choose an Elective</option>
+                    <option value="web-development">Web Development</option>
+                    <option value="ai-ml">Artificial Intelligence & ML</option>
+                    <option value="cyber-security">Cyber Security</option>
+                    <option value="digital-marketing">Digital Marketing</option>
+                    <option value="linux-admin">
+                      Linux System Administration
+                    </option>
+                  </select>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="country">Country *</label>
+                    <select id="country" name="country" required>
+                      <option value="">Select Country</option>
+                      <option value="guyana">Guyana</option>
+                      <option value="zambia">Zambia</option>
+                      <option value="other">Other</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="city">City *</label>
+                    <select id="city" name="city" required>
+                      <option value="">Select City</option>
+                    </select>
+                  </div>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                  <i class="fas fa-rocket"></i>
+                  <span>Start Learning Now</span>
+                </button>
+
+                <div class="form-footer">
+                  <p>
+                    <i class="fas fa-shield-alt"></i> 100% Secure & Confidential
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2>Why Learn With LTC?</h2>
+          <p>
+            Discover what makes London Technology College the preferred choice
+            for online education
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card slide-up">
+            <div class="feature-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h3>3-48 Hours of Compact Learning</h3>
+            <p>
+              Efficient yet comprehensive—learn without overwhelming your
+              schedule. Perfect for busy professionals.
+            </p>
+          </div>
+
+          <div class="feature-card slide-up">
+            <div class="feature-icon">
+              <i class="fas fa-pound-sign"></i>
+            </div>
+            <h3>Consistent £125 Pricing</h3>
+            <p>
+              No surprises—unlimited learning potential at a fixed investment.
+              Quality education that's affordable.
+            </p>
+          </div>
+
+          <div class="feature-card slide-up">
+            <div class="feature-icon">
+              <i class="fas fa-laptop"></i>
+            </div>
+            <h3>100% Online & Flexible</h3>
+            <p>
+              Study at your own pace—around work, family, or time zones. Learn
+              from anywhere, anytime.
+            </p>
+          </div>
+
+          <div class="feature-card slide-up">
+            <div class="feature-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <h3>UK-Certified Completion</h3>
+            <p>
+              Bolster your CV or academic credentials with recognized
+              certification from the UK.
+            </p>
+          </div>
+
+          <div class="feature-card slide-up">
+            <div class="feature-icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <h3>Career-Aligned Content</h3>
+            <p>
+              Simulations, live tools, projects—build real, relevant skills that
+              employers value.
+            </p>
+          </div>
+
+          <div class="feature-card slide-up">
+            <div class="feature-icon">
+              <i class="fas fa-user-graduate"></i>
+            </div>
+            <h3>Beginner-Friendly Design</h3>
+            <p>
+              No prior experience? No problem—just ambition. Start from basics
+              and grow to expert level.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2>Explore Popular Courses</h2>
+          <p>
+            All courses are fully online, UK-certified, priced at £125 GBP, and
+            designed for flexible, self-paced learning.
+          </p>
+        </div>
+
+        <div class="courses-grid">
+          <div class="course-card slide-up">
+            <div class="course-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>IT & Analytics</h3>
+            <p>
+              Master cutting-edge technology skills including web development,
+              data analytics, and system administration.
+            </p>
+            <div class="course-features">
+              <span><i class="fas fa-clock"></i> 3-48 Hours</span>
+              <span><i class="fas fa-certificate"></i> UK-Certified</span>
+            </div>
+          </div>
+
+          <div class="course-card slide-up">
+            <div class="course-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3>Banking Finance & Insurance</h3>
+            <p>
+              Build expertise in financial services, banking operations, and
+              insurance management.
+            </p>
+            <div class="course-features">
+              <span><i class="fas fa-clock"></i> 3-48 Hours</span>
+              <span><i class="fas fa-certificate"></i> UK-Certified</span>
+            </div>
+          </div>
+
+          <div class="course-card slide-up">
+            <div class="course-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3>Management & Entrepreneurship</h3>
+            <p>
+              Develop leadership skills and entrepreneurial mindset to drive
+              business success.
+            </p>
+            <div class="course-features">
+              <span><i class="fas fa-clock"></i> 3-48 Hours</span>
+              <span><i class="fas fa-certificate"></i> UK-Certified</span>
+            </div>
+          </div>
+
+          <div class="course-card slide-up">
+            <div class="course-icon">
+              <i class="fas fa-dumbbell"></i>
+            </div>
+            <h3>Sports And Fitness Management</h3>
+            <p>
+              Learn sports management, fitness training, and wellness program
+              development.
+            </p>
+            <div class="course-features">
+              <span><i class="fas fa-clock"></i> 3-48 Hours</span>
+              <span><i class="fas fa-certificate"></i> UK-Certified</span>
+            </div>
+          </div>
+
+          <div class="course-card slide-up">
+            <div class="course-icon">
+              <i class="fas fa-spa"></i>
+            </div>
+            <h3>Beauty And Wellness</h3>
+            <p>
+              Master beauty treatments, wellness coaching, and spa management
+              techniques.
+            </p>
+            <div class="course-features">
+              <span><i class="fas fa-clock"></i> 3-48 Hours</span>
+              <span><i class="fas fa-certificate"></i> UK-Certified</span>
+            </div>
+          </div>
+
+          <div class="course-card slide-up">
+            <div class="course-icon">
+              <i class="fas fa-palette"></i>
+            </div>
+            <h3>Creative Arts And Design</h3>
+            <p>
+              Explore graphic design, digital arts, and creative project
+              management.
+            </p>
+            <div class="course-features">
+              <span><i class="fas fa-clock"></i> 3-48 Hours</span>
+              <span><i class="fas fa-certificate"></i> UK-Certified</span>
+            </div>
+          </div>
+
+          <div class="course-card slide-up">
+            <div class="course-icon">
+              <i class="fas fa-seedling"></i>
+            </div>
+            <h3>Agribusiness Management</h3>
+            <p>
+              Learn sustainable farming practices and agricultural business
+              management.
+            </p>
+            <div class="course-features">
+              <span><i class="fas fa-clock"></i> 3-48 Hours</span>
+              <span><i class="fas fa-certificate"></i> UK-Certified</span>
+            </div>
+          </div>
+
+          <div class="course-card slide-up">
+            <div class="course-icon">
+              <i class="fas fa-film"></i>
+            </div>
+            <h3>Media And Entertainment</h3>
+            <p>
+              Master media production, content creation, and entertainment
+              industry management.
+            </p>
+            <div class="course-features">
+              <span><i class="fas fa-clock"></i> 3-48 Hours</span>
+              <span><i class="fas fa-certificate"></i> UK-Certified</span>
+            </div>
+          </div>
+
+          <div class="course-card slide-up">
+            <div class="course-icon">
+              <i class="fas fa-plane"></i>
+            </div>
+            <h3>Tourism And Hospitality</h3>
+            <p>
+              Build skills in tourism management, hospitality services, and
+              customer experience.
+            </p>
+            <div class="course-features">
+              <span><i class="fas fa-clock"></i> 3-48 Hours</span>
+              <span><i class="fas fa-certificate"></i> UK-Certified</span>
+            </div>
+          </div>
+
+          <div class="course-card slide-up">
+            <div class="course-icon">
+              <i class="fas fa-heartbeat"></i>
+            </div>
+            <h3>Medical</h3>
+            <p>
+              Advance your medical knowledge and healthcare administration
+              skills.
+            </p>
+            <div class="course-features">
+              <span><i class="fas fa-clock"></i> 3-48 Hours</span>
+              <span><i class="fas fa-certificate"></i> UK-Certified</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-left fade-in-left">
+            <div class="about-image">
+              <img
+                src="https://via.placeholder.com/500x400/044f84/ffffff?text=Online+Learning"
+                alt="Online Learning"
+              />
+              <div class="about-badge">
+                <i class="fas fa-award"></i>
+                <div>
+                  <strong>UK Certified</strong>
+                  <span>Quality Education</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-right fade-in-right">
+            <h2>About London Technology College</h2>
+            <p>
+              London Technology College (LTC) is a forward-thinking,
+              UK-certified online education provider dedicated to empowering
+              learners globally with in-demand, career-focused skills.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <i class="fas fa-graduation-cap"></i>
+                <div>
+                  <h4>70+ Professional Courses</h4>
+                  <p>
+                    From IT, business, and agriculture to creative arts and
+                    hospitality
+                  </p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <i class="fas fa-laptop-code"></i>
+                <div>
+                  <h4>Hands-on Learning</h4>
+                  <p>
+                    Project-based learning with lifetime access to materials
+                  </p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <i class="fas fa-users"></i>
+                <div>
+                  <h4>Expert Support</h4>
+                  <p>
+                    Supportive tutors who guide learners toward real-world
+                    readiness
+                  </p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <i class="fas fa-mobile-alt"></i>
+                <div>
+                  <h4>Mobile Accessibility</h4>
+                  <p>Learn on any device with full mobile compatibility</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-cta">
+              <a href="#home" class="cta-button">Start Your Journey</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-content fade-in">
+          <h2>Ready to Transform Your Career?</h2>
+          <p>
+            Join thousands of students from Guyana and Zambia who have advanced
+            their careers with LTC
+          </p>
+          <a href="#home" class="cta-button-large">
+            <i class="fas fa-rocket"></i>
+            Get Started Today
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <div class="footer-logo">
+              <img
+                src="https://via.placeholder.com/150x50/ffffff/044f84?text=LTC"
+                alt="London Technology College"
+              />
+            </div>
+            <p>
+              Empowering your future with industry-ready, UK-certified
+              professional courses.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#courses">Courses</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h3>Popular Courses</h3>
+            <ul>
+              <li><a href="#">IT & Analytics</a></li>
+              <li><a href="#">Banking & Finance</a></li>
+              <li><a href="#">Management</a></li>
+              <li><a href="#">Medical</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h3>Contact Info</h3>
+            <div class="contact-info">
+              <p><i class="fas fa-envelope"></i> info@londoncollege.org.uk</p>
+              <p><i class="fas fa-phone"></i> +44 20 1234 5678</p>
+              <p>
+                <i class="fas fa-map-marker-alt"></i> London, United Kingdom
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-bottom-content">
+            <p>&copy; 2025 London Technology College. All rights reserved.</p>
+            <div class="footer-links">
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms of Service</a>
+              <a href="#">Cookie Policy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./script.js"></script>
+  </body>
+</html>
